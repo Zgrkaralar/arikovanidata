@@ -25,15 +25,12 @@ echo "<br>";
 echo "$newdate";
 
 if ($suan > $newdate) {
-	echo " <br> 5 test";
-	# code...
-
+	echo " <br> 20dan dakikadan fazla süredir  data yok";
+	#  api kodu
 }
 
 
-
-
-//close the connection
+//mysql bağlantı kapatma
 mysql_close($dbhandle);
 
 
