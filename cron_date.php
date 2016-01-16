@@ -16,7 +16,7 @@ $sondataal = mysql_query("SELECT date2 FROM data ORDER BY id DESC limit 1");
 $a=mysql_fetch_array($sondataal);
 
 $date = $a[0];
-$newdate = strtotime ( '+20 minute' , strtotime ( $date ) ) ;
+$newdate = strtotime ( '+15 minute' , strtotime ( $date ) ) ;
 $newdate = date ( 'Y-m-d H:i:s' , $newdate );
 $suan = date("Y-m-d H:i:s");
 
