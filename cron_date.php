@@ -30,7 +30,7 @@ if ($suan > $newdate) {
 }
 
 
-//mysql bağlantı kapatma
+//mysql bağlantı kapatma.
 mysql_close($dbhandle);
 
 
